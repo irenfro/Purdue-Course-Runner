@@ -23,7 +23,6 @@ function checkSpace(err, resp, html) {
                     var msg = coursename+" has " + remaining + " remaining spots as of: " + (new Date()).toString();
                     console.log(msg);
                     if(remaining != 0) {
-                        time = new Date();
                         var mailOptions = {
                             from: env.email,
                             to: env.phoneMail,
