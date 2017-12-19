@@ -43,4 +43,4 @@ function checkSpace(err, resp, html) {
     });
 }
 request(domain, checkSpace);
-setInterval(function(){request(domain, checkSpace);},15*60000);
+setInterval(function(){request(domain, checkSpace);},60000);
